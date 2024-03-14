@@ -1,0 +1,45 @@
+.navbar ul{
+     list-style: none;
+     background:  rgb(211, 120, 214);
+     padding: 0%;
+     margin: 0%;
+     overflow: hidden;
+
+}
+.navbar a{
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+
+}
+.navbar a:hover{
+    background-color: aliceblue(0, 0%, 5px);
+
+}
+.navbar li{
+    float: right;
+}
+.navbar ul li:hover {
+    background-color: rgb(227, 93, 172);
+}
+.navbar image{
+    float: left;
+}
+
+header {
+    background-color:  rgb(211, 120, 214);
+    padding: 10px;
+    text-align: right ;
+    background-image: url(../images/pexels-ksenia-chernaya-3952077.jpg);
+    background-size: cover;
+    height: 200px;
+    border: 1px rgb(211, 120, 214);
+   
+}
+.logo {
+    float:left;
+    border: solid rgb(211, 120, 214);
+    border-radius: 14px;
+    clear: left;
+}
