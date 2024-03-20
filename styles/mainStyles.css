@@ -1,0 +1,160 @@
+main {
+    border-radius: 10px;
+}
+.navbar ul{
+     list-style: none;
+     background:  rgb(211, 120, 214);
+     padding: 0%;
+     margin: 0%;
+     overflow: hidden;
+    border-radius: 10px;
+
+}
+.navbar a{
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+
+}
+.navbar a:hover{
+    background-color: aliceblue(0, 0%, 5px);
+
+}
+.navbar li{
+    float: right;
+}
+.navbar ul li:hover {
+    background-color: rgb(227, 93, 172);
+}
+.navbar image{
+    float: left;
+}
+.logo {
+    float: left;
+    clear: left;
+}
+
+header {
+    background-color: rgb(211, 120, 214);
+    padding: 10px;
+    text-align: right;
+    background-image: url(../images/pexels-ksenia-chernaya-3952077.jpg);
+    background-size: cover;
+    background-position: 50%;
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.banner-text{
+    color: rgb(232, 49, 171);
+    padding-top: 50px;
+    margin-right: 50px ;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    position: right;
+
+}
+.content {
+    width: 95%;
+    margin: auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.content h2 {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.content h2 span {
+    color: rgb(245, 152, 168);
+    margin-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image-display h3 {
+    width: 60%;
+    text-align: center;
+    color: rgb(246, 97, 176);
+    margin: 10px auto 10px;
+    font-size: 18px;
+}
+.image-display p {
+    text-align: center;
+    margin-top: 5px;
+    line-height: 21px;
+}
+.image-display {
+    max-width: 250px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    overflow: hidden;
+}
+.image-display .button :hover{
+    color: rgb(245, 56, 150);
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.image-display .button{
+   transition: 0.3s;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+   font-family: Arial, Helvetica, sans-serif;
+   
+   background-color: rgba(221, 160, 221, 0.842);
+   padding: 8px  10px;
+   margin: 0 40px;
+   border-radius: 12px;
+}
+.image-display img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+.image-display img:hover {
+    transform: scale(1.1);
+}
+.image-display a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(221, 160, 221, 0.842);
+}
+
+aside {
+    border: 5px rgb(109, 193, 207);
+    width: 18.5%;
+    float: right;
+}
+aside ul li a{
+     color: blue;
+     text-decoration: none;
+
+}
+aside ul li {
+    list-style-type: disc;
+}
+footer {
+    
+   color: rgb(232, 49, 171);
+   background-color:  rgb(245, 152, 168);
+   padding-top: 10px;
+   letter-spacing: 10px;
+   font-weight: bold;
+   font-size: 15px;
+   font-family: cursive;
+
+}
