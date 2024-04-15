@@ -1,0 +1,163 @@
+.receipeinst {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 90px;
+}
+.receipeinst h3 {
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.desc .foodimage {
+    max-width: 280px;
+    max-height: 230px;
+    margin-bottom: 20px;
+    margin-top: -55px;
+    float: right;
+    margin-right: 50px;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 30px;
+    border-width: 10px;
+}
+
+.desc p {
+    text-align: center;
+    margin-top: 5px;
+    line-height: 21px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.method {
+    border: 10px solid transparent; 
+    background-color: rgba(255, 255, 255, 0.699);
+    margin-left: -15px;
+}
+
+.method ul {
+    column-count: 2;
+    column-rule: 1px solid black;
+    column-gap: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.method ul li {
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.method h4 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+    padding-top: 10px;
+    line-height: 5px;
+}
+
+.method ol li {
+    margin-bottom: 10px;
+}
+
+.videoContent {
+    width: 100%;
+    border: 5px solid white;
+    border-style: dashed;
+    border-radius: 10px;
+    font-size: 0;
+    overflow: auto;
+}
+
+.videoContent h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#bodyform{
+    font-family: sans-serif;
+    background-image: url(../images/backround.jpg); 
+    margin: 10px; 
+    background-size: cover;
+}
+
+#mainform {
+    margin: 15px 200px;
+    padding: 20px;
+    border: solid black;
+    background: white;
+    min-height: 500px;
+}
+
+.required {
+    font-weight: bold;
+    color: red;
+}
+
+label {
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+    margin-bottom: 1em; 
+    width: 220px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto; 
+}
+
+#button {
+    margin-left: 138px;
+    transition: 0.3s;
+}
+
+#reset:hover {
+    color: rgb(245, 56, 150);
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+#reset {
+    margin-left: 138px;
+    transition: 0.3s;
+}
+
+#button:hover {
+    color: rgb(245, 56, 150);
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+#button,
+#reset {
+    margin-top: 1em; 
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+#design {
+    display: flex;
+    align-items: center;
+}
+
+.map_info p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+    margin-left: 80px;
+    text-orientation: sideways-right;
+}

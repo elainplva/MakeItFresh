@@ -1,0 +1,230 @@
+main {
+    border-radius: 10px;
+    
+}
+
+.navbar ul{
+    list-style: none;
+    background:  rgb(211, 120, 214);
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.navbar a{
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+
+}
+.navbar li{
+    float: left;
+    margin-right: 10px;
+}
+.navbar ul li:hover {
+    background-color: rgb(227, 93, 172);
+}
+.navbar image{
+    float: left;
+}
+.logo {
+    float: left;
+    clear: left;
+}
+
+header {
+    background-color: rgb(211, 120, 214);
+    padding: 10px;
+    text-align: right;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: 30%;
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.banner-text{
+    color: rgb(199, 109, 136);
+    padding-top: 50px;
+    margin-right: 80px ;
+    margin-left: 100px;
+    letter-spacing: 10px;
+    font-family: Cambria, Cochin, Georgia, Times;
+    font-style: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.content {
+    width: 95%;
+    margin: auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+main h2 {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+main h2 span {
+    color: rgb(245, 152, 168);
+    margin-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.image-display h3 {
+    width: 50%;
+    text-align: center;
+    color: rgb(246, 97, 176);
+    margin: 10px auto 10px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    line-height: 42px;   
+}
+
+.image-display {
+    max-width: 250px;
+    margin-bottom: 20px;
+    position: relative; 
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    overflow: hidden;
+}
+.image-display .button :hover{
+    color: rgb(245, 56, 150);
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.image-display .button {
+    transition: 0.3s;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(221, 160, 221, 0.842);
+    padding: 2%  2%;
+    border-radius: 12px;
+    text-decoration: none;
+    position: absolute; 
+    bottom: 0; 
+    margin-left: 30%;
+    margin-right: 20%;
+    height: 7.5%;
+    
+}
+
+.image-display img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+.image-display img:hover {
+    transform: scale(1.1);
+}
+.image-display a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(221, 160, 221, 0.842);
+}
+
+#extra {
+    width: 18.5%;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#extra ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: large;
+}
+#extra ul li {
+    list-style-type: square;
+}
+#extra ul li:hover {
+    background-color: rgba(227, 93, 171, 0.704);
+}
+table {
+    width: 60%;
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: large;
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(213, 124, 174, 0.63);
+}
+th,td {
+    border: 2px rgb(0, 0, 0);
+    text-align: left;
+    padding: 8px;
+}
+tr,td {
+  border: 2px solid rgb(18, 28, 32);
+}
+thead th {
+  width: 25%;
+  border: 2px solid rgb(18, 28, 32);
+}
+
+.table_info {
+  background-color: rgba(242, 113, 186, 0.727);
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.table_info
+{
+    color:rgb(6, 70, 70);
+}
+footer {
+    color: rgb(232, 49, 171);
+    background-color: rgb(245, 152, 168);
+    clear: both;
+    position: relative;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: inline-block; 
+    text-align: center; 
+    padding: 0; 
+    
+}
+
+footer a {
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    padding: 15px;
+}
+
+footer a:hover {
+    background-color: rgb(227, 93, 172);
+}
+
+footer li {
+    display: inline-block; 
+    margin-left: 10px; 
+}
+
+footer p {
+    margin-top: 10px; 
+}
+
